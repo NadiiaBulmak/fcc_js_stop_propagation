@@ -1,0 +1,2 @@
+document.querySelector(".modal-overlay").addEventListener("click",function(){document.querySelector(".modal-overlay").style.display="none"}),document.querySelector(".modal-content").addEventListener("click",function(e){e.stopPropagation()}),document.querySelector(".close-btn").addEventListener("click",function(e){e.stopPropagation(),document.querySelector(".modal-overlay").style.display="none"}),document.querySelector(".submit-btn").addEventListener("click",function(e){e.preventDefault(),e.stopPropagation()});
+//# sourceMappingURL=index.caba2e88.js.map
